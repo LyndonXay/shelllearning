@@ -13,3 +13,11 @@ if [[ "${exia}" == "exitv" ]]; then
 else
 	echo "fault!"
 fi
+
+for ((i = 0; i < 10; i++)); do
+	echo $i
+done
+
+for VAR in "1 2 3"; do
+	echo $VAR
+done
